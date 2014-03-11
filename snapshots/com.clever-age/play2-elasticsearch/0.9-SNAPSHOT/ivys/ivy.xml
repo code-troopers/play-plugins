@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="com.clever-age" module="play2-elasticsearch" revision="0.9-SNAPSHOT" status="integration" publication="20140310175410">
+	<info organisation="com.clever-age" module="play2-elasticsearch" revision="0.9-SNAPSHOT" status="integration" publication="20140311091820">
 		<license name="MIT" url="http://opensource.org/licenses/MIT"/>
-		<description homepage="https://github.com/rlucas1/play2-elasticsearch">
+		<description homepage="https://github.com/cleverage/play2-elasticsearch">
 		play2-elasticsearch
 		</description>
 	</info>
@@ -31,7 +31,7 @@
 		
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.2" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-java_2.10" rev="2.2.1" conf="compile->default(compile)"/>
-		<dependency org="org.elasticsearch" name="elasticsearch" rev="0.90.12" conf="compile->default(compile)"/>
+		<dependency org="org.elasticsearch" name="elasticsearch" rev="0.90.7" conf="compile->default(compile)"/>
 		<dependency org="org.apache.commons" name="commons-lang3" rev="3.1" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play_2.10" rev="2.2.1" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-test_2.10" rev="2.2.1" conf="test->default(compile)"/>

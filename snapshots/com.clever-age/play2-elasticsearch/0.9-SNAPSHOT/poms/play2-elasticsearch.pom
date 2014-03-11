@@ -5,7 +5,7 @@
     <artifactId>play2-elasticsearch</artifactId>
     <packaging>jar</packaging>
     <description>play2-elasticsearch</description>
-    <url>https://github.com/rlucas1/play2-elasticsearch</url>
+    <url>https://github.com/cleverage/play2-elasticsearch</url>
     <version>0.9-SNAPSHOT</version>
     <licenses>
         <license>
@@ -17,25 +17,21 @@
     <name>play2-elasticsearch</name>
     <organization>
         <name>com.clever-age</name>
-        <url>https://github.com/rlucas1/play2-elasticsearch</url>
+        <url>https://github.com/cleverage/play2-elasticsearch</url>
     </organization>
-    <url>https://github.com/rlucas1/play2-elasticsearch</url>
-    <licenses>
-        <license>
-            <name>MIT-style</name>
-            <url>http://opensource.org/licenses/MIT</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
     <scm>
-        <url>git@github.com:rlucas1/play2-elasticsearch.git</url>
-        <connection>scm:git:git@github.com:rlucas1/play2-elasticsearch.git</connection>
+        <url>git@github.com:cleverage/play2-elasticsearch.git</url>
+        <connection>scm:git:git@github.com:cleverage/play2-elasticsearch.git</connection>
     </scm>
     <developers>
         <developer>
-            <id>rlucas</id>
-            <name>Romain LUCAS</name>
-            <url>http://www.code-troopers.com</url>
+            <id>nboire</id>
+            <name>Nicolas Boire</name>
+        </developer>
+        <developer>
+            <id>mguillermin</id>
+            <name>Matthieu Guillermin</name>
+            <url>http://matthieuguillermin.fr</url>
         </developer>
     </developers>
     <dependencies>
@@ -52,7 +48,7 @@
         <dependency>
             <groupId>org.elasticsearch</groupId>
             <artifactId>elasticsearch</artifactId>
-            <version>0.90.12</version>
+            <version>0.90.7</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
